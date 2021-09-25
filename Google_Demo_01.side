@@ -1,0 +1,54 @@
+{
+  "id": "dd9444cc-3483-491e-9838-293a3a0248ba",
+  "version": "2.0",
+  "name": "SeleniumIDE_Weekend",
+  "url": "https://www.google.co.in",
+  "tests": [{
+    "id": "eecc4f36-9c24-4141-b32b-13a355e1338a",
+    "name": "google_demo",
+    "commands": [{
+      "id": "337601ce-4e1a-4084-8448-e8122db8f508",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "301c7e87-faa5-42c1-a5f8-92f0e1940a2a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1365x726",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d27abd3c-cdb1-4b62-8b15-3551393f26cc",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc19749-936d-4ded-a47a-0d5dea6be6aa",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "27a7fbab-6c69-4a15-8a98-f9f8bc710a11",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eecc4f36-9c24-4141-b32b-13a355e1338a"]
+  }],
+  "urls": ["https://www.google.co.in/"],
+  "plugins": []
+}
